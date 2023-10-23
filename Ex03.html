@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main-bar{
+            background-color: white;
+            margin: auto;
+            width: 50%;
+            border: 3px solid green;
+            padding: 10px;
+        }
+        
+        input{
+            width: 100%;
+            box-sizing: border-box;
+            border: 0;
+            margin: 0 0 1rem;
+            padding: 1rem;
+            background-color: silver;
+            
+        }
+        .dangnhap{
+            padding: 1rem;
+        }
+        button{
+            background-color: green;
+            color: white;
+            cursor: pointer;
+            width: 100%;
+            border: 0;
+            padding: 1rem;
+            transition: all 0,3 ease;
+        }
+        button:hover{
+            background-color: lightgreen;
+
+            
+        }
+        button:hover span{
+            opacity: 1;   
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: lightgreen;">
+    <div class="main-bar">
+    <div class="dangnhap">
+        <div class="text-bar">
+            <input type="text" id="Username" name="Username" placeholder="Username">
+        </div>
+        <div class="text-bar">
+            <input type="text" id="Password" name="Password" placeholder="Password">
+        </div>
+        <div> 
+            <button><span>LOGIN</span></button>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: center;"><p>Not registered? <a href="#" style="color: green;">Create an account</a></p></div>
+    </div>
+    </div>
+</body>
+</html>
